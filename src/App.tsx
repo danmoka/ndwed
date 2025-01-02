@@ -27,7 +27,8 @@ function App() {
         {/* Newlyweds */}
         <Section className="text-center">
           <h1 className="text-4xl mb-4 font-light">Наташа и Даня</h1>
-          <p className="text-xl text-gray-200">С радостью приглашаем вас на нашу свадьбу</p>
+          <p className="text-xl text-gray-200 mb-8">С радостью приглашаем вас на нашу свадьбу</p>
+          <p className="text-2xl text-red-700">TBA - информация будет добавлена позже</p>
         </Section>
         {/* Date & Time */}
         <Section title="Когда">
@@ -40,15 +41,17 @@ function App() {
         {/* Venue */}
         <Section title="Где">
           <p className="text-xl mb-4">Глэмпинг Ёлки парк</p>
-          <p className="text-lg text-gray-200  mb-4">Ярославский район, Карабихское сельское поселение</p>
-          <ImgLink source="src/data/yolki_park.png" link="https://yandex.ru/maps/-/CHQ2bO96" />
+          <a target="_blank" href="https://yandex.ru/maps/-/CHQ2bO96">
+            <p className="text-lg text-gray-200 hover:text-sky-700 mb-4">Открыть в Яндекс Карты</p>
+          </a>
+          <ImgLink source="https://avatars.mds.yandex.net/get-altay/5583647/2a0000017fd5b97e94a34e5325aadb511df4/XXXL" link="https://yandex.ru/maps/-/CHQ2bO96" />
         </Section>
         {/* Directions */}
         <Section title="Как добраться">
           <div className="space-y-4">
             <div className="flex items-center gap-4 mb-4 p-1">
               <Car className="w-8 h-8 text-light" />
-              <p className="text-lg text-gray-200">подъезд к глэмпингу польностью асфальтирован, есть парковка</p>
+              <p className="text-lg text-gray-200">дорога польностью асфальтирована, есть парковка</p>
             </div>
             <div className="flex items-center gap-4 mb-4 p-1">
               <CarTaxiFront className="w-8 h-8 text-light" />
