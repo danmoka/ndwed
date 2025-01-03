@@ -2,8 +2,6 @@ import React from 'react';
 import { Car, CarTaxiFront, Bus } from 'lucide-react';
 import { Section } from './components/Section';
 import { ColorPalette } from './components/ColorPalette';
-import { YandexMap } from './components/YandexMap';
-import { Delimiter } from './components/Delimiter';
 import { ImgLink } from './components/ImgLink';
 import { weddingColors } from './data/colors';
 
@@ -27,8 +25,8 @@ function App() {
         {/* Newlyweds */}
         <Section className="text-center">
           <h1 className="text-4xl mb-4 font-light">Наташа и Даня</h1>
-          <p className="text-xl text-gray-200 mb-8">С радостью приглашаем вас на нашу свадьбу</p>
-          <p className="text-2xl text-red-700">TBA - информация будет добавлена позже</p>
+          <p className="text-xl text-gray-200 mb-8">Дорогие гости, с радостью приглашаем вас на нашу свадьбу</p>
+          <p className="text-2xl text-red-700">TBA - будет объявлено позднее</p>
         </Section>
         {/* Date & Time */}
         <Section title="Когда">
@@ -73,6 +71,9 @@ function App() {
           <ul className="space-y-6 text-lg text-gray-200">
             <li>
               Наш праздник пройдет на территории лесной зоны. Захватите с собой теплую одежду, удобную обувь и зонтик
+            </li>
+            <li>
+              Просим учесть, что на территории парка не допускается использование открытого огня, бенгальских огней, свечей, конфетти, лепестков цветов и сыпучих пищевых и не пищевых продуктов
             </li>
             <li>
               Главное для нас - это Ваше внимание. Не ломайте голову над подарками. Ваши пожелания в конвертах помогут осуществить нашу мечту
