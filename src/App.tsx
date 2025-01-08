@@ -24,9 +24,9 @@ function App() {
       <div className="relative z-10 max-w-2xl mx-auto p-8 space-y-4">
         {/* Newlyweds */}
         <Section className="text-center">
-          <h1 className="text-4xl mb-4 font-light">Наташа и Даня</h1>
+          <h1 className="text-4xl mb-4 font-light">Наталья и Даниил</h1>
           <p className="text-xl text-gray-200 mb-8">Дорогие гости, с радостью приглашаем вас на нашу свадьбу</p>
-          <p className="text-2xl text-red-700">TBA - будет объявлено позднее</p>
+          <p className="text-2xl text-red-500">TBA - будет объявлено позднее</p>
         </Section>
         {/* Date & Time */}
         <Section title="Когда">
@@ -91,6 +91,9 @@ function App() {
               Будем признательны, если Вы сообщите нам о своём решении любым удобным способом до 30 апреля 2025
             </li>
           </ul>
+        </Section>
+        <Section className="text-center">
+          <a href="https://www.flaticon.com/free-icons/ring" className="text-neutral-700" title="ring icons">Ring icons created by Freepik - Flaticon</a>
         </Section>
       </div>
     </div>
