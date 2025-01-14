@@ -49,7 +49,7 @@ function App() {
           <div className="space-y-4">
             <div className="flex items-center gap-4 mb-4 p-1">
               <Car className="w-8 h-8 text-light" />
-              <p className="text-lg text-gray-200">дорога польностью асфальтирована, есть парковка</p>
+              <p className="text-lg text-gray-200">дорога полностью асфальтирована, есть парковка</p>
             </div>
             <div className="flex items-center gap-4 mb-4 p-1">
               <CarTaxiFront className="w-8 h-8 text-light" />
