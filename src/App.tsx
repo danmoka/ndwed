@@ -26,15 +26,15 @@ function App() {
         <Section className="text-center">
           <h1 className="text-4xl mb-4 font-light">Наталья и Даниил</h1>
           <p className="text-xl text-gray-200 mb-8">Дорогие гости, с радостью приглашаем вас на нашу свадьбу</p>
-          <p className="text-2xl text-red-500">TBA - будет объявлено позднее</p>
+          {/* <p className="text-2xl text-red-500">TBA - будет объявлено позднее</p> */}
         </Section>
         {/* Date & Time */}
         <Section title="Когда">
           <p className="text-xl mb-4">Суббота, Май 31, 2025</p>
-          <p className="text-lg text-gray-200">Отправление трансфера: TBA</p>
-          <p className="text-lg text-gray-200">Сбор гостей: TBA</p>
-          <p className="text-lg text-gray-200">Окончание торжества: TBA</p>
-          <p className="text-lg text-gray-200">Обратный трансфер: TBA</p>
+          <p className="text-lg text-gray-200">Отправление трансфера: будет объявлено позднее</p>
+          <p className="text-lg text-gray-200">Сбор гостей: 16:00</p>
+          <p className="text-lg text-gray-200">Окончание торжества: 23:00</p>
+          <p className="text-lg text-gray-200">Обратный трансфер: будет объявлено позднее</p>
         </Section>
         {/* Venue */}
         <Section title="Где">
