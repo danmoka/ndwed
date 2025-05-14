@@ -61,16 +61,16 @@ function App() {
         <Section title="Как добраться">
           <div className="space-y-4">
             <div className="flex items-center gap-4 mb-4 p-1">
-              <Car className="w-8 h-8 text-light" />
+              <Car className="text-light" />
               <p className="text-lg text-gray-200">дорога полностью асфальтирована, есть парковка</p>
             </div>
             <div className="flex items-center gap-4 mb-4 p-1">
-              <CarTaxiFront className="w-8 h-8 text-light" />
+              <CarTaxiFront className="text-light" />
               <p className="text-lg text-gray-200">стоимость поездки на такси из центра Ярославля ~800 руб</p>
             </div>
             <div className="flex items-center gap-4 mb-4 p-1">
-              <Bus className="w-8 h-8 text-light" />
-              <p className="text-lg text-gray-200">на трансфере туда и обратно</p>
+              <Bus className="text-light" />
+              <p className="text-lg text-gray-200">на трансфере из центра города и обратно</p>
             </div>
           </div>
         </Section>
