@@ -26,21 +26,52 @@ function App() {
         <Section className="text-center">
           <h1 className="text-4xl mb-4 font-light">Наталья и Даниил</h1>
           <p className="text-xl text-gray-200 mb-8">Дорогие гости, с радостью приглашаем вас на нашу свадьбу</p>
-          {/* <p className="text-2xl text-red-500">TBA - будет объявлено позднее</p> */}
+          <div className="flex items-center justify-center">
+            {/* <span className="relative flex size-3 mr-3">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75"></span>
+              <span className="relative inline-flex size-3 rounded-full bg-red-500"></span>
+            </span>
+            <a href="#transfer">
+              <p className="text-2xl text-gray-200">Информация о трансфере</p>
+            </a> */}
+
+            {/* <a href="#transfer" className="inline-flex items-center justify-center p-5 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+              <span className="relative flex size-3 mr-3">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75"></span>
+                <span className="relative inline-flex size-3 rounded-full bg-red-500"></span>
+              </span>
+              <span className="w-full">Информация о трансфере</span>
+              <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+              </svg>
+            </a> */}
+            <span className="relative inline-flex">
+              <a href="#transfer" className="inline-flex items-center rounded-md bg-white px-4 py-2 text-sm leading-6 font-semibold text-gray-200 ring-1 ring-gray-900/10 transition duration-150 ease-in-out dark:bg-white/5 dark:ring-white/20">
+                Информация о трансфере
+                <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                </svg>
+              </a>
+              <span className="absolute top-0 right-0 -mt-1 -mr-1 flex size-3">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75"></span>
+                <span className="relative inline-flex size-3 rounded-full bg-red-500"></span>
+              </span>
+            </span>
+          </div>
         </Section>
         {/* Date & Time */}
         <Section title="Когда">
           <p className="text-xl mb-4">Суббота, Май 31, 2025</p>
-          <p className="text-lg text-gray-200">Отправление трансфера: будет объявлено позднее</p>
+          <p className="text-lg text-gray-200">Отправление трансфера: 15:30</p>
           <p className="text-lg text-gray-200">Сбор гостей: 16:00</p>
           <p className="text-lg text-gray-200">Окончание торжества: 23:00</p>
-          <p className="text-lg text-gray-200">Обратный трансфер: будет объявлено позднее</p>
+          <p className="text-lg text-gray-200">Обратный трансфер: 23:30</p>
         </Section>
         {/* Venue */}
         <Section title="Где">
           <p className="text-xl mb-4">Глэмпинг Ёлки парк</p>
           <a target="_blank" href="https://yandex.ru/maps/-/CHQ2bO96">
-            <p className="text-lg text-gray-200 hover:text-sky-700 mb-4">Открыть в Яндекс Карты</p>
+            <p className="text-lg text-sky-200 hover:text-sky-700 mb-4">Открыть в Яндекс Карты</p>
           </a>
           <ImgLink source="https://avatars.mds.yandex.net/get-altay/5583647/2a0000017fd5b97e94a34e5325aadb511df4/XXXL" link="https://yandex.ru/maps/-/CHQ2bO96" />
         </Section>
@@ -57,9 +88,25 @@ function App() {
             </div>
             <div className="flex items-center gap-4 mb-4 p-1">
               <Bus className="w-8 h-8 text-light" />
-              <p className="text-lg text-gray-200">о трансфере будет объявлено дополнительно</p>
+              <p className="text-lg text-gray-200">на трансфере туда и обратно</p>
             </div>
           </div>
+        </Section>
+        {/* Transfer */}
+        <Section title="Трансфер">
+          <p id="transfer" className="text-xl mb-4">Отправление в 15:30</p>
+          <a target="_blank" href="https://yandex.ru/maps/-/CHvByX-l">
+            <p className="text-lg text-sky-200 hover:text-sky-700 mb-4">Красная площадь (улица Красный съезд)</p>
+          </a>
+          <p className="text-xl mb-4">*цвет *марка *гос. номер</p>
+          <img
+            src="https://avatars.mds.yandex.net/get-altay/13453452/2a0000018efbc7c66fd29996acf68b5907dd/XXXL"
+            width="100%"
+            height="300"
+            frameBorder="0"
+            className="rounded-lg mb-5"
+          />
+          <p className="text-xl">Пожалуйста, сообщите заранее, если планируете ехать на трансфере</p>
         </Section>
         {/* Color Palette */}
         <Section title="Цветовая гамма">
@@ -83,9 +130,6 @@ function App() {
             </li>
             <li>
               Мы будем благодарны, если при выборе нарядов или аксессуаров Вы придержитесь палитры, но это не обязательно
-            </li>
-            <li>
-              Для вашего удобства будет организован трансфер от (будет объявлено позднее). Время отправления (будет объявлено позднее). Пожалуйста, сообщите заранее, если он Вам понадобится
             </li>
             <li>
               Будем признательны, если Вы сообщите нам о своём решении любым удобным способом до 30 апреля 2025
