@@ -28,7 +28,7 @@ function App() {
           <p className="text-xl text-gray-200 mb-8">Дорогие гости, с радостью приглашаем вас на нашу свадьбу</p>
           <div className="flex items-center justify-center">
             <span className="relative inline-flex">
-              <a href="#transfer" className="inline-flex items-center rounded-md bg-white px-4 py-2 text-sm leading-6 font-semibold text-gray-200 ring-1 ring-gray-900/10 transition duration-150 ease-in-out dark:bg-white/5 dark:ring-white/20">
+              <a href="#transfer" className="inline-flex items-center rounded-md px-4 py-2 text-sm leading-6 font-semibold text-gray-200 ring-1 ring-gray-900/10 transition duration-150 ease-in-out dark:bg-white/5 dark:ring-white/20">
                 Информация о трансфере
                 <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
