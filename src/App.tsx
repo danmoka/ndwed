@@ -44,7 +44,7 @@ function App() {
         {/* Date & Time */}
         <Section title="Когда">
           <p className="text-xl mb-4">Суббота, Май 31, 2025</p>
-          <p className="text-lg text-gray-200">Отправление трансфера: 15:30</p>
+          <p className="text-lg text-gray-200">Отправление трансфера: 15:20</p>
           <p className="text-lg text-gray-200">Сбор гостей: 16:00</p>
           <p className="text-lg text-gray-200">Окончание торжества: 23:00</p>
           <p className="text-lg text-gray-200">Обратный трансфер: 23:30</p>
@@ -76,19 +76,19 @@ function App() {
         </Section>
         {/* Transfer */}
         <Section title="Трансфер">
-          <p id="transfer" className="text-xl mb-4">Отправление в 15:30</p>
+          <p id="transfer" className="text-xl mb-4">Отправление в 15:20</p>
           <a target="_blank" href="https://yandex.ru/maps/-/CHvByX-l">
             <p className="text-lg text-sky-200 hover:text-sky-700 mb-4">Красная площадь (улица Красный съезд)</p>
           </a>
-          <p className="text-xl mb-4">*цвет *марка *гос. номер</p>
+          <p className="text-xl mb-4">Белый Mercedes-Benz Sprinter *гос. номер</p>
           <img
-            src="https://avatars.mds.yandex.net/get-altay/13453452/2a0000018efbc7c66fd29996acf68b5907dd/XXXL"
+            src="https://sun9-63.userapi.com/impg/bT6sGR8mNWH0gUbN6L_pWFYEOLK4QAhWuQCLDA/FTyCuTYCQbI.jpg?size=1280x898&quality=95&sign=80956934260f332ebf1b46a31f13a3b2&type=album"
             width="100%"
             height="300"
             frameBorder="0"
             className="rounded-lg mb-5"
           />
-          <p className="text-xl">Пожалуйста, сообщите заранее, если планируете ехать на трансфере</p>
+          <p className="text-xl">Пожалуйста, сообщите заранее, если планируете воспользоваться трансфером</p>
         </Section>
         {/* Color Palette */}
         <Section title="Цветовая гамма">
