@@ -33,9 +33,17 @@ function App() {
               </svg>
             </a>
           </div>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center mb-4">
             <a href="https://disk.yandex.ru/d/Sl5l1l-okFXJtA/%D0%93%D1%80%D0%B8%D0%B3%D0%B0_31%D0%BC%D0%B0%D1%8F2025.mp4" target="_blank" className="w-48 inline-flex items-center justify-center rounded-md bg-white px-4 py-2 text-sm leading-6 font-semibold text-gray-200 ring-1 ring-gray-900/10 transition duration-150 ease-in-out bg-white/5 ring-white/20">
               Она сказала "да"
+              <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+              </svg>
+            </a>
+          </div>
+          <div className="flex items-center justify-center">
+            <a href="https://disk.yandex.ru/d/KT2QAD0dPzEeuA" target="_blank" className="w-48 inline-flex items-center justify-center rounded-md bg-white px-4 py-2 text-sm leading-6 font-semibold text-gray-200 ring-1 ring-gray-900/10 transition duration-150 ease-in-out bg-white/5 ring-white/20">
+              Бэкстейдж
               <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
               </svg>
