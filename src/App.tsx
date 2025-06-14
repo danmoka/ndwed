@@ -27,7 +27,15 @@ function App() {
           <p className="text-xl text-gray-200 mb-8">Дорогие гости, здесь постараемся выложить все фото и видео со свадьбы</p>
           <div className="flex items-center justify-center mb-4">
             <a href="https://iamilyazhukov.ru/disk/31-05-2025-d-n-31-05-2025-teaser-3llf5l" target="_blank" className="w-48 inline-flex items-center justify-center rounded-md bg-white px-4 py-2 text-sm leading-6 font-semibold text-gray-200 ring-1 ring-gray-900/10 transition duration-150 ease-in-out bg-white/5 ring-white/20">
-              Фотографии и SDE
+              Тизер
+              <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+              </svg>
+            </a>
+          </div>
+          <div className="flex items-center justify-center mb-4">
+            <a href="https://iamilyazhukov.ru/disk/31-05-2025-panki-tbgq9w" target="_blank" className="w-48 inline-flex items-center justify-center rounded-md bg-white px-4 py-2 text-sm leading-6 font-semibold text-gray-200 ring-1 ring-gray-900/10 transition duration-150 ease-in-out bg-white/5 ring-white/20">
+              Фотографии
               <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
               </svg>
