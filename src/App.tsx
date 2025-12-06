@@ -12,7 +12,7 @@ function App() {
       <div
         className="brightness-90 fixed inset-0 z-0"
         style={{
-          backgroundImage: 'url("https://i.wfolio.ru/x/KfN2JhbB89-m6UeUSQ-43V8Ps6EBsyfx/CALOGwrPD9otD_UZHN3ToHutKbzczkHV/CsrYDksGoEpKhdx-yarqrlXPIEsott1T/7NRQ7ORHLoWc2tCbJMfkNVFPNh9UOjxX/oYKuIuG-FkIKmNv8MZ7f8w.jpg")',
+          backgroundImage: 'url("https://i.wfolio.ru/x/Sjpgrm2v20FR6Cth5viRk_lfWt1C2Iyb/-UIC3PwlK7raul0ClHUjyee9jeBClfuB/B3cyjBWSIJZ3mTMJArqqRyFxN4zghNYR/mZtV9WJFq7efQrzqWbzGkKsJSyjS52vO/eIG30QhvCZn03L7Tbsu6Vg.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           opacity: 0.9
@@ -25,14 +25,14 @@ function App() {
         <Section className="text-center">
           <h1 className="text-4xl mb-4 font-light">Наталья и Даниил</h1>
           <p className="text-xl text-gray-200 mb-8">Дорогие гости, здесь постараемся выложить все фото и видео со свадьбы</p>
-          <div className="flex items-center justify-center mb-4">
+          {/* <div className="flex items-center justify-center mb-4">
             <a href="https://iamilyazhukov.ru/disk/31-05-2025-d-n-31-05-2025-teaser-3llf5l" target="_blank" className="w-48 inline-flex items-center justify-center rounded-md bg-white px-4 py-2 text-sm leading-6 font-semibold text-gray-200 ring-1 ring-gray-900/10 transition duration-150 ease-in-out bg-white/5 ring-white/20">
               Тизер
               <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
               </svg>
             </a>
-          </div>
+          </div> */}
           <div className="flex items-center justify-center mb-4">
             <a href="https://iamilyazhukov.ru/disk/31-05-2025-panki-tbgq9w" target="_blank" className="w-48 inline-flex items-center justify-center rounded-md bg-white px-4 py-2 text-sm leading-6 font-semibold text-gray-200 ring-1 ring-gray-900/10 transition duration-150 ease-in-out bg-white/5 ring-white/20">
               Фотографии
@@ -41,14 +41,14 @@ function App() {
               </svg>
             </a>
           </div>
-          <div className="flex items-center justify-center mb-4">
+          {/* <div className="flex items-center justify-center mb-4">
             <a href="https://disk.yandex.ru/d/Sl5l1l-okFXJtA/%D0%93%D1%80%D0%B8%D0%B3%D0%B0_31%D0%BC%D0%B0%D1%8F2025.mp4" target="_blank" className="w-48 inline-flex items-center justify-center rounded-md bg-white px-4 py-2 text-sm leading-6 font-semibold text-gray-200 ring-1 ring-gray-900/10 transition duration-150 ease-in-out bg-white/5 ring-white/20">
               Она сказала "да"
               <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
               </svg>
             </a>
-          </div>
+          </div> */}
           <div className="flex items-center justify-center">
             <a href="https://disk.yandex.ru/d/KT2QAD0dPzEeuA" target="_blank" className="w-48 inline-flex items-center justify-center rounded-md bg-white px-4 py-2 text-sm leading-6 font-semibold text-gray-200 ring-1 ring-gray-900/10 transition duration-150 ease-in-out bg-white/5 ring-white/20">
               Бэкстейдж
